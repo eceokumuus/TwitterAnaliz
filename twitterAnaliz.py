@@ -2,7 +2,6 @@ import sys,tweepy,csv,re
 from textblob import TextBlob
 import matplotlib.pyplot as plt
 
-
 class SentimentAnalysis:
 
     def __init__(self):
@@ -159,7 +158,6 @@ class SentimentAnalysis:
         plt.axis('equal')
         plt.tight_layout()
         plt.show()
-
 
 
 if __name__== "__main__":
