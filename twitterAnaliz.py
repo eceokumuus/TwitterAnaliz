@@ -9,7 +9,8 @@ class SentimentAnalysis:
         self.tweetText = []
 
     def DownloadData(self):
-        # authenticating (kimlik doğrulama)
+        # authenticating
+        # kimlik doğrulama
         consumerKey ="bzzeIJcxTEaVThoQRFGaI5Nwm"
         consumerSecret ="6LKFP3tFcjIcMvkXRJ418YFN2yxIt0mgXEnrlNKKTnqAVcKvre"
         accessToken ="1355282641-zHQkYOU5YJ3WFPOJ4KtzcEWJYYc9pkomFNRMP7d"
